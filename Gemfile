@@ -75,3 +75,4 @@ gem "simple_form", github: "heartcombo/simple_form"
 gem "jbuilder"
 
 gem "dotenv-rails", groups: [:development, :test]
+gem "cloudinary"

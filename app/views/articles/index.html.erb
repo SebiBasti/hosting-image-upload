@@ -12,3 +12,12 @@
 </div>
 
 <%= link_to "New article", new_article_path %>
+
+
+<%#= cl_image_tag("pqev5xfn8yqfhhthjhdm",
+      width: 400, height: 300, crop: :fill) %>
+
+<%#= cl_image_tag("pqev5xfn8yqfhhthjhdm",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
+
+<%= cl_image_tag Article.last.photo.key, height: 300, width: 400, crop: :fill %>
